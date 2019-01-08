@@ -1,11 +1,12 @@
 @font-face {
   font-family: 'Inter UI';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 400;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-Regular.woff2") format("woff2"),
-       url("assets/Inter-UI-Regular.woff") format("woff");
+    url("assets/Inter-UI-Regular.woff2") format("woff2"),
+    url("assets/Inter-UI-Regular.woff") format("woff");
 }
+
 /* @font-face {
   font-family: 'Inter UI italic';
   font-style:  italic;
@@ -14,85 +15,86 @@
        url("assets/Inter-UI-Italic.woff2") format("woff2"),
        url("assets/Inter-UI-Italic.woff") format("woff");
 } */
-
 @font-face {
   font-family: 'Inter UI';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 500;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-Medium.woff2") format("woff2"),
-       url("assets/Inter-UI-Medium.woff") format("woff");
+    url("assets/Inter-UI-Medium.woff2") format("woff2"),
+    url("assets/Inter-UI-Medium.woff") format("woff");
 }
+
 @font-face {
   font-family: 'Inter UI';
-  font-style:  italic;
+  font-style: italic;
   font-weight: 500;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-MediumItalic.woff2") format("woff2"),
-       url("assets/Inter-UI-MediumItalic.woff") format("woff");
+    url("assets/Inter-UI-MediumItalic.woff2") format("woff2"),
+    url("assets/Inter-UI-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 600;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-SemiBold.woff2") format("woff2"),
-       url("assets/Inter-UI-SemiBold.woff") format("woff");
+    url("assets/Inter-UI-SemiBold.woff2") format("woff2"),
+    url("assets/Inter-UI-SemiBold.woff") format("woff");
 }
+
 @font-face {
   font-family: 'Inter UI';
-  font-style:  italic;
+  font-style: italic;
   font-weight: 600;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-SemiBoldItalic.woff2") format("woff2"),
-       url("assets/Inter-UI-SemiBoldItalic.woff") format("woff");
+    url("assets/Inter-UI-SemiBoldItalic.woff2") format("woff2"),
+    url("assets/Inter-UI-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 700;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-Bold.woff2") format("woff2"),
-       url("assets/Inter-UI-Bold.woff") format("woff");
+    url("assets/Inter-UI-Bold.woff2") format("woff2"),
+    url("assets/Inter-UI-Bold.woff") format("woff");
 }
+
 @font-face {
   font-family: 'Inter UI';
-  font-style:  italic;
+  font-style: italic;
   font-weight: 700;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-BoldItalic.woff2") format("woff2"),
-       url("assets/Inter-UI-BoldItalic.woff") format("woff");
+    url("assets/Inter-UI-BoldItalic.woff2") format("woff2"),
+    url("assets/Inter-UI-BoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 800;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-ExtraBold.woff2") format("woff2"),
-       url("assets/Inter-UI-ExtraBold.woff") format("woff");
-}
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  italic;
-  font-weight: 800;
-  src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-ExtraBoldItalic.woff2") format("woff2"),
-       url("assets/Inter-UI-ExtraBoldItalic.woff") format("woff");
+    url("assets/Inter-UI-ExtraBold.woff2") format("woff2"),
+    url("assets/Inter-UI-ExtraBold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
-  font-style:  normal;
+  font-style: italic;
+  font-weight: 800;
+  src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
+    url("assets/Inter-UI-ExtraBoldItalic.woff2") format("woff2"),
+    url("assets/Inter-UI-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
   font-weight: 900;
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url("assets/Inter-UI-Black.woff2") format("woff2"),
-       url("assets/Inter-UI-Black.woff") format("woff");
+    url("assets/Inter-UI-Black.woff2") format("woff2"),
+    url("assets/Inter-UI-Black.woff") format("woff");
 }
-
-
 
 /*
 Single variable font.
@@ -111,47 +113,366 @@ html {
 */
 @font-face {
   font-family: 'Inter UI var';
-  font-weight: 400 900; /* safe weight range */
+  font-weight: 400 900;
+  /* safe weight range */
   src: url('assets/Inter-UI.var.woff2') format("woff2-variations"),
-       url('assets/Inter-UI.var.woff2') format("woff2");
-}
-
-
-p{
-  font-family: 'Inter UI';
-  font-size: 13pt;
-  width: 800px;
-  line-height: 1.56;
-  margin: 0;
-  font-style: normal;
-  text-decoration:
-
-}
-
-h1{
-font-family: 'Inter UI';
-font-size: 19pt;
-font-weight: 500;
-font-style: normal;
-}
-
-body{
-  margin-left: 60px;
-  margin-top: 80px;
+    url('assets/Inter-UI.var.woff2') format("woff2");
 }
 
 html{
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+p {
+  /* font-family: 'Inter UI'; */
+  font-family: 'EB Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-size: 15pt;
+  max-width: 850px;
+  line-height: 1.56;
+  font-weight: 400;
+  /* margin: auto; */
+  font-style: normal;
+  margin: 0px;
+}
+
+/* .quote {
+  font-family: 'Inter UI', serif;
+  font-size: 16pt;
+  max-width: 800px;
+  line-height: 1.56;
+  font-style: normal;
+  margin: 0px;
+} */
+
+h1 {
+  font-family: 'Inter UI';
+  font-size: 21pt;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Inter UI';
+  font-size: 12pt;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+h3 {
+  font-family: 'Inter UI';
+  font-size: 10pt;
+  font-weight: 500;
+  font-style: normal;
+  /* color: #a3a3a3; */
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+body {
+  /* margin-left: 60px; */
+  /* margin-top: 80px; */
+  /* text-align: center; */
+  margin: 0px;
+}
+
+html {
   /* background-color: red; */
 }
 
-#video1{
-  width: 800px;
+#video1 {
+  /* width: 800px; */
+  width: 100%;
 }
 
 #apple {
-width: 800px;
+  width: 800px;
 }
 
 .selfie {
   height: 500px;
+}
+
+.content {
+  /* display: flex; */
+}
+
+img {}
+
+.centeredimg {
+  display: block;
+  margin: auto;
+}
+
+.centereddiv {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.long {
+  width: 800px;
+}
+
+.tall {
+  height: 500px;
+  margin: 0;
+}
+
+.small {
+  height: 200px;
+  margin: 0;
+}
+
+.smallimages {
+  width: 180px;
+}
+
+.lineimages {
+  height: 270px;
+}
+.lineimages2 {
+  height: 370px;
+}
+.video_contain {
+  /* position: absolute; */
+  /* top: -50%; */
+  /* left: -50%; */
+  width: 100%;
+  /* height: 200%; */
+}
+
+.video-wrapper {
+  /* position: fixed; */
+  width: 100%;
+  /* background-color: tan; */
+  /* height: 100vh; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  /* left: 50%; */
+  /* margin-left: -32.5%; */
+  /* top: 20%; */
+  overflow-x: hidden;
+}
+
+.smallvideos {
+  width: 1000px;
+}
+
+#firstvideo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* images */
+#hoxne {
+  width: 300px;
+}
+
+.centeredtext {
+  margin: auto;
+}
+
+.headers {
+  text-align: center;
+}
+
+#videowrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidetext {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.sidepara {
+  width: 400px;
+}
+
+.sideimage {
+  height: 510px;
+}
+
+.quotenormal {
+  font-family: 'Inter UI';
+  font-size: 15pt;
+  padding-left: 90px;
+}
+
+.qc1{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc3{
+  font-family: 'Caveat', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc4{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 18pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc5{
+  font-family: 'Waiting for the Sunrise', cursive;;
+  font-size: 19pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc6{
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+.qc7{
+  font-family: 'Just Me Again Down Here', cursive;;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc8{
+  font-family: 'Swanky and Moo Moo', cursive;;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc9{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc10{
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc11{
+  font-family: 'Coming Soon', cursive;
+  font-size: 17pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc12{
+font-family: 'Nanum Pen Script', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc13{
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+
+.qc14{
+  font-family: 'Norican', cursive;
+  font-size: 25pt;
+  padding-left: 90px;
+  line-height: 27pt;
+}
+.underimage {
+  font-family: times;
+  font-style: italic;
+  font-size: 10pt;
+  /* padding-left: 90px; */
+}
+
+.info {
+  display: flex;
+  color: #FFF;
+  /* font-size: .70em; */
+  font-family: "Inter UI", helvetica;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+  justify-content: left;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  -webkit-font-smoothing: antialiased;
+  width: 800px;
+}
+
+.boxes {
+  display: block;
+  /* margin-left: 10px; */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 10px;
+  /* font-family: times; */
+  font-size: 15px;
+}
+
+.caption {
+  padding-top: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* .tableofcontents {
+  font-size: 13px;
+} */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  border-top: .05px solid grey;
+  opacity: 0.25
+}
+
+#maintitle{
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+    z-index: 1;
+    color: #f7f7f7;
+}
+
+.dfi{
+  width: 1100px;
 }
