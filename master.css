@@ -566,6 +566,7 @@ hr {
 
 .thanks{
   color: grey;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 @media print{
