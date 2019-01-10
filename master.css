@@ -222,6 +222,10 @@ img {}
   width: 800px;
 }
 
+.face{
+  height: 200px;
+}
+
 .tall {
   height: 500px;
   margin: 0;
@@ -529,6 +533,10 @@ hr {
   opacity: 0.25
 }
 
+.wizard{
+  height:187px;
+}
+
 .dfi {
   width: 1100px;
 }
@@ -550,4 +558,109 @@ hr {
 
 .numbers {
   font-weight: normal;
+}
+
+.hideweb {
+  display: none;
+}
+
+.thanks{
+  color: grey;
+}
+
+@media print{
+
+.endnotes {
+  page-break-before: always;
+}
+
+  .thanks{
+color: black;
+font-size: 29pt;
+font-family: 'Reenie Beanie', cursive;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .hideweb {
+    display: inline;
+  }
+
+  .printcontent{
+    font-size: 30pt;
+    page-break-after: always;
+    padding-top: 200px;
+    margin-left: 300px;
+    font-family: 'Reenie Beanie', cursive;
+  }
+
+
+  .pagebreak{
+    page-break-after: always;
+  }
+  .cover{
+    width: 35cm;
+    page-break-after: always;
+  }
+
+/* text */
+
+.caption {
+  padding-top: 5px;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+p {
+  /* font-family: 'Inter UI'; */
+  font-family: 'EB Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-size: 17pt;
+  max-width: 850px;
+  line-height: 1.56;
+  font-style: normal;
+  /* margin: auto; */
+  font-style: normal;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-family: 'Inter UI';
+  font-size: 18pt;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+#maintitle {
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  /* position: absolute; */
+  bottom: 0;
+  /* left: 400px; */
+  z-index: 1;
+  color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  right: 45px;
+  bottom: 15px;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+  @page{
+    size: A4 Portrait;
+    margin-top: 10mm;
+    margin-left: 15px;
+    margin-right: 15px;
+
+  }
 }
