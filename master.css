@@ -657,6 +657,23 @@ h2 {
   font-size: 20pt;
 }
 
+
+#maintitle2 {
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  /* position: absolute; */
+  bottom: 0;
+  /* left: 400px; */
+  z-index: 1;
+  color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  right: 45px;
+  bottom: 15px;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
   @page{
     size: A4 Portrait;
     margin-top: 10mm;
