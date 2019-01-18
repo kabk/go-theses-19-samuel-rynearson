@@ -119,6 +119,10 @@ html {
     url('assets/Inter-UI.var.woff2') format("woff2");
 }
 
+title{
+  font-family: helvetica;
+}
+
 html {
   background-color: #f7f7f7;
   overflow-x: hidden;
